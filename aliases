@@ -1,0 +1,10 @@
+# location commands
+alias cdcr2='cd ~/Work/cr2rails'
+
+# rails commands
+alias ss='script/server'
+alias sc='script/console'
+
+# bundled commands
+alias bspec='bundle exec spec'
+alias bcuke='bundle exec cucumber'
