@@ -1,5 +1,5 @@
 # location commands
-alias cdcr2='cd ~/Work/cr2rails'
+alias cdcr2='cd ~/pe/cr2rails'
 
 # rails commands
 alias ss='script/server'
