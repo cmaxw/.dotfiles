@@ -105,6 +105,8 @@
  (defun try-complete-abbrev (old)
    (if (expand-abbrev) t nil))
 
+(setq default-tab-width 2)
+
  (setq hippie-expand-try-functions-list
        '(try-complete-abbrev
    try-complete-file-name
@@ -126,6 +128,8 @@
 
  ;; make #! scripts executable after saving them
  (add-hook 'after-save-hook 'executable-make-buffer-file-executable-if-script-p)
+
+(autoload 'feature-mode "cucumber-mode" "Cucumber" t)
 
 ;;;
 ;; erc irc client related
